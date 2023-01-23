@@ -13,6 +13,7 @@
     src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
+
 :root {
      --cor0: #83e1ad;
      --cor1: #3ddc84;
@@ -23,7 +24,11 @@
      --font-padrao: arial, verdana, helverita;
      --font-especial: 'android', arial;
 
+}
 
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
